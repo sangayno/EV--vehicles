@@ -1,0 +1,485 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+
+
+
+#logo{
+   width: 100px;
+    height: 100px;
+
+}
+
+
+
+.carousel-item {   
+     height: 70vh;
+}
+
+
+
+
+h1 {  
+    text-align: center;
+    text-shadow: 2px 3px 4px black;   
+}
+ h1 {
+     padding: 20px;   
+     text-align: center;
+     color: green;     
+     text-shadow: 2px 3px 4px greenyellow;
+     font-family: 30px;      
+     background-attachment: fixed;
+     font-family: 'Lobster', sans-serif;
+
+}
+h5 {  
+    text-align: center;
+}
+.div{ 
+    padding: 30px;
+}
+.card-group{
+    color:green;
+    display: flex;     
+    justify-content: space-between;
+}
+.card-body{
+    padding: 30px;
+    
+}
+.card2{
+  width: 250px;
+  
+}
+
+.body{   
+    
+    text-align: center;  
+     padding: 40px;
+    }
+
+.card{
+    margin: 50px;    
+    
+}
+.card-text{
+    position: relative;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.flip-card {
+    padding: 30px;
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:white;
+  color: white;
+  transform: rotateY(180deg);
+}
+#karma{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+#som{
+      margin: 0 auto;
+    display: flex; 
+    padding: 10px;
+}
+
+.karmaimm{
+    padding: 10px;
+    width: 350px;
+  height:400px; 
+}
+#div {
+  margin: auto;
+    justify-content: space-between;
+}
+
+h2 {
+   color: green;
+   position: relative;
+   top: 100px;
+}
+
+.paragraph{
+    color: green;
+    position: relative;
+   top: 120px;
+}
+
+#imgOne{
+  width: 350px;
+  position: relative;
+  top: 70px;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-text{
+  font-size: 30px;
+  color:black;
+}
+
+/* for mobile */
+@media (max-width:600px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+
+
+
+#logo{
+   width: 100px;
+    height: 100px;
+
+}
+
+
+.carousel-item {   
+     height: 70vh;
+}
+
+
+
+
+h1 {  
+    text-align: center;
+    text-shadow: 2px 3px 4px black;   
+}
+ h1 {
+     padding: 20px;   
+     text-align: center;
+     color: green;     
+     text-shadow: 2px 3px 4px greenyellow;
+     font-family: 30px;      
+     background-attachment: fixed;
+     font-family: 'Lobster', sans-serif;
+
+}
+h5 {  
+    text-align: center;
+}
+.div{ 
+    padding: 30px;
+}
+.card-group{
+    color:green;
+    display: flex;     
+    justify-content: space-between;
+}
+.card-body{
+    padding: 30px;
+    
+}
+
+.body{   
+    
+    text-align: center;  
+     padding: 40px;
+    }
+
+.card{
+   font-size: 30px;
+    margin: 10px; 
+      
+    
+}
+ .card1 { 
+    
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.card2{
+  width: 150px;
+}
+
+.flip-card {
+    padding: 30px;
+  background-color: transparent;
+  width: 150px;
+  height: 150px;
+  perspective: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  /* position: absolute; */
+  width: 150px;
+  height: 150px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:white;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+#karma{
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+#som{
+      margin: 0 auto;
+    display: flex; 
+    padding: 10px;
+}
+
+.karmaimm{
+    /* padding: 10px; */
+    width: 150px;
+  height:150px; 
+}
+#div {
+  margin: auto;
+    justify-content: space-between;
+}
+
+.heading {
+    color: green;
+    text-align: center;
+    font-size: 10px;
+    position: static;
+
+}
+
+.paragraph{
+    color: green;
+    
+   font-size: 10px;
+   position: static;
+}
+
+#imgOne{
+  width: 350px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-text{
+  font-size: 30px;
+  color:black;
+}
+
+
+}
+
+/* media querry for tablet */
+
+@media (max-width:768px) and (min-width:601px) {
+  
+body{
+  overflow-x: hidden;
+}
+
+.card{
+  font-size: 20px;
+   margin: 10px; 
+   font-family: 'Oswald', sans-serif;
+  }
+
+  #imgOne{
+    width: 350px;
+    position: relative;
+    top: 20px;
+    left: 90px;
+
+
+}
+
+.card-group{
+  width: 100%;
+  color:green;
+  display: flex;     
+  justify-content: space-between;
+  flex-direction:column;
+}
+
+.card2{
+  width: 30%;
+}
+
+.flip-card {
+  padding: 30px;
+background-color: transparent;
+width: 190px;
+height: 190px;
+perspective: 1000px;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.flip-card-inner {
+position: relative;
+width: 190px;
+height: 190px;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.flip-card:hover .flip-card-inner {
+          transform: rotatey(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+
+/* position: absolute; */
+width: 190px;
+height: 190px;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.flip-card-front {
+background-color:white;
+color: black;
+}
+
+.flip-card-back {
+background-color:white;
+color: white;
+transform: rotatey(180deg);
+
+}
+
+.karmaimm{
+  /* padding: 10px; */
+  width: 190px;
+height:190px; 
+}
+
+.heading {
+  color: green;
+  text-align: center;
+  font-size: 10px;
+  position: static;
+
+}
+
+.paragraph{
+  color: green;
+  
+ font-size: 10px;
+ position: static;
+ text-align: center;
+}
+}
+
+/* media querry for labtop */
+
+@media (max-width:992px) and (min-width:769px) {
+
+
+  #imgOne{
+    width: 350px;
+    position: relative;
+    top: 80px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+

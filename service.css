@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+
+#logo{
+ width: 100px;
+  height: 100px;
+
+}
+.navbar{
+    background-color: black;
+}
+
+
+
+
+
+body {
+   overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    
+   }
+header {
+  width: 100%;
+  height:15vh;
+   background-color:black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.banner {
+ height: 60vh;
+  background-size: cover;
+    background-position: center center;
+
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 3px 3px 3px gray;
+}
+
+div#home-banner {
+    height: 70vh;
+ background-image: url("https://cdn.wallpapersafari.com/39/4/lo6zOH.gif");
+}
+
+#place{
+    
+    width: 100%;
+    height: 50vh;
+    height: auto;
+    /* padding: 10px 0px; */
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+.card{
+
+    width: 45%;
+  
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+   
+ 
+  
+    
+}
+.card img {
+    height: 30vh;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+        
+ }
+h1 {
+  
+    font-family: 'Lobster', sans-serif;
+    padding: 60px;
+  text-align: center;
+    color: green;
+   
+}
+
+
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#service-banner{
+ background-image: url("https://etimg.etb2bimg.com/photo/87756947.cms");
+    background-attachment: fixed;
+}
+
+#serviceType{
+  
+    text-align: center;
+
+    display: flex;
+    padding: 80px;
+}
+
+section img{
+    
+  width: 200%;
+  position: relative;
+   top: 60px;
+  
+}
+h3{
+margin-bottom: 90px;
+    
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-text{
+    font-size: 30px;
+    color:black;
+  }
+  
+  .footer{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  #imgeight{
+    width: 200px;
+  }
+
+  @media (max-width:600px) {
+    #serviceType{
+  
+      text-align: center;
+  
+      display: flex;
+      flex-direction: column;
+      padding: 80px;
+  }
+  }
